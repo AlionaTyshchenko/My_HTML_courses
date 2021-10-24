@@ -1,7 +1,57 @@
 h1
 {
     text-align: center;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,0.6320903361344538) 77%, rgba(0,212,255,1) 100%);
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Neucha', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+h3
+{
+    text-align: center;
     color: black;
-    weight:20px
-    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,121,9,0.6320903361344538) 21%, rgba(0,212,255,1) 100%);
+
+}
+div
+{ 
+
+    margin: 40px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Neucha', cursive;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+ 
+li
+{
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Neucha', cursive;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+p
+{
+    text-align: center;
 }
