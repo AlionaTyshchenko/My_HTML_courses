@@ -2,3 +2,98 @@
     width: 1260px;
     margin: 0 auto;
 }
+.wraper{
+    width: 1285px;
+    height: 1165px;
+    margin: 66px 80px 66px 80px;
+    border: 1px solid black;
+}
+.header{
+    background-color:#FFFFFF;   
+    Width: 1285px;
+    Height: 64px;
+}
+.header li{
+    display: block;
+    flex-direction: row; 
+    justify-content: space-around; 
+    padding: 20px;  
+    float: left;
+    width: 120px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    width: 104px;
+    height: 16px;
+}
+li:first-child{
+    padding: 16px 120px 16px 40px;
+}
+.button{
+    padding: 8px 40px 8px 120px;
+    color: #0066CC;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #0066CC;
+}
+.banner{
+    width: 1285px;
+    height: 200px;
+    background:linear-gradient(268.98deg, rgba(255, 255, 255, 0.32) 0.24%, rgba(255, 255, 255, 0.08) 100.87%), #006BE8;
+}
+.banner h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 48px 72px 12px 72px;
+}
+.banner h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 72px 48px 72px;
+}
+.navigation{
+    background-color:#FFFFFF;
+    width: 1285px;
+    height: 56px;
+}
+.navigation li{
+    float: left;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #0066CC;
+    font-size: 14px;
+    text-decoration: none;
+}
+.navigation li::after{
+    content: " ";
+    display:inline-block;
+    margin-left: 20px;
+    width: 8px;
+    height: 16px;
+    background-image: url(./images/arrow.png);
+}
+.main{
+    width: 1285px;
+    height: 528px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.main-box{
+    width: 368px;
+    height: 400px;
+    background-color: #FFFFFF;
+    margin-top: 64px;
+}
+.footer-top{
+    width: 1285px;
+    height: 256px;
+    background: #F1F1F1 ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
