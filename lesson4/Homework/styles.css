@@ -45,6 +45,7 @@ li:first-child{
     text-align: center;
     color: #FFFFFF;
     padding: 48px 72px 12px 72px;
+    text-decoration: none;
 }
 .banner h2{
     font-family: 'Roboto', sans-serif;
