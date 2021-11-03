@@ -1,38 +1,37 @@
-.wraper{
-    width: 1260px;
-    margin: 0 auto;
-}
+
 .wraper{
     width: 1285px;
     height: 1165px;
     margin: 66px 80px 66px 80px;
-    border: 1px solid black;
 }
 .header{
     background-color:#FFFFFF;   
     Width: 1285px;
     Height: 64px;
 }
+.header a{
+    text-decoration: none;
+    color: black;
+}
 .header li{
-    display: block;
-    flex-direction: row; 
-    justify-content: space-around; 
-    padding: 20px;  
+    padding: 20px 32px 20px 32px;  
     float: left;
+    font-family: 'Roboto', sans-serif;
     width: 120px;
     height: 56px;
-    font-family: 'Roboto', sans-serif;
-    width: 104px;
-    height: 16px;
 }
-li:first-child{
-    padding: 16px 120px 16px 40px;
+header li:first-child{
+    padding: 16px 50px 16px 40px;
 }
-.button{
-    padding: 8px 40px 8px 120px;
+button{
     color: #0066CC;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     border: 2px solid #0066CC;
+    padding: 12px;
+    margin-left: 32px;
+    background: #FFFFFF;
+    margin-top: 8px;
 }
 .banner{
     width: 1285px;
@@ -95,6 +94,33 @@ li:first-child{
     background: #F1F1F1 ;
     display: flex;
     justify-content: space-around;
+}
+.footer-section li{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    width: 264px;
+}
+hr{
+    width: 265px;
+}
+.footer-section li:first-child{
+    line-height: 40px;
+    padding-top: 40px;
+}
+.footer-section p{
+    text-align: center;
+}
+.footer-bottom{
+    width: 1285px;
+    height: 48px;
+    background: #FFFFFF;
+}
+.footer-bottom p{
+    text-align: left;
+    color:rgba(0, 0, 0, 0.48);
+    padding: 15px;
 }
 
 
