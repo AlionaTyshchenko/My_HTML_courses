@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <form action="" method="get">
+        <div class="wraper">
+            <div class="header">
+                <a href="#">Contact manager</a>
+                <select name="actions" id="">
+                    <option value="">More actions</option>
+                    <option value="">value1</option>
+                    <option value="">value2</option>
+                    <option value="">value3</option>
+                </select>
+            </div>
+            <div class="main">
+                <div class="left">
+                    <div class="field">
+                        <label for="First name" class="required">First name</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="Last name" class="required">Last name</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="massege">Massege</label>
+                        <textarea name="massege" id="" cols="20" rows="10"></textarea>
+                    </div>
+                    <div class="field">
+                        <label for="City">City</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="State">State</label>
+                        <select name="sex" id="">State
+                            <option value="Sex">Male</option>
+                            <option value="Sex">Female</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="Zip">Zip</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="Home Phone">Home Phone</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="Work Phone" class="required">Work Phone</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="Fax">Fax number</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label for="Website">Website</label> 
+                        <div class="website">
+                            <div>
+                                <label for="URL">URL</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="Link Name"> Link Name</label>
+                                <input type="text">
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="field">
+                        <label for="Email" class="required">Email Adress</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="right"> 
+                        <div class="right-field">
+                            <label for="When"> When is the best time to contact you?</label>
+                            <div class="ask">
+                                <input type="radio" name="time" value="Morning"> 
+                                <label for="Morning">Morning</label>
+                                <input type="radio" name="time" value="Afternoon"> 
+                                <label for="Afternoon">Afternoon</label>
+                                <input type="radio" name="time" value="Evening"> 
+                                <label for="Evening">Evening</label>
+                            </div>
+                        </div>
+                        <div class="right-field"> 
+                            <label for="What"> What is the best way to contact you?</label>
+                            <div class="ask">
+                                <input type="radio" name="where"value="Phone"> 
+                                <label for="Phone">Phone</label>
+                                <input type="radio" name="where" value="Email"> 
+                                <label for="Email">Email</label>
+                                <input type="radio" name="where" value="Fax"> 
+                                <label for="Fax">Fax</label>
+                            </div>
+                        </div>
+                        <div class="right-field">
+                            <label for="Message">Massege</label>
+                            <div class="massege">
+                                <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="footer">
+                <input type="submit" value="Submit">
+                <input type="Reset" value="Reset">
+            </div>
+        </div>    
+    </form>
+</body>
+</html>

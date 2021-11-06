@@ -1,0 +1,88 @@
+.wraper{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.header{
+    background-color: rgb(197, 255, 197);
+    padding: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.header select{
+    border-width: 0;
+    background-color: rgb(197, 255, 197);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.required::after{
+    content: '*';
+    color:red;
+}
+.left{
+    width: 40%;
+    padding: 15px;
+}
+.right{
+    width: 55%;
+    padding: 15px;
+}
+textarea{
+    resize: none;
+}
+.field{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px ;
+}
+.field:last-child{
+    margin-bottom: 0;
+}
+.field input, .field textarea, .field select{
+    width: 200px;
+}
+.website{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.website input{
+    margin-bottom: 20px;
+    width: 115px;
+    float: right;
+}
+.right-field{
+    display: flex;
+    margin-bottom:20px;
+}
+.ask{
+    width: 100px;
+    margin-left: 20px;
+}
+.footer{
+    height: 40px;
+    background-color: rgba(160, 157, 157, 0.301);
+    text-align: center;
+}
+.footer input{
+    color: white;
+    background-color: rgb(80, 156, 80);
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+}
+.right-field textarea{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
