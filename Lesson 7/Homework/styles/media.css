@@ -1,176 +1,69 @@
 @media(max-width:1200px){
-    .wrapper{
-        width: 100%;
+    .container, .history_container{
+        width: 1170px;
     }
+    .header, .main{
+        width: 1200px;
+    }  
 }
-@media(max-width:360px){
-    body{
-        font-family: 'Inter';
-        font-style: normal;
-        font-size: 18px;
-        color: #2D3436;
+@media(max-width:768px){
+    .container, .history_container{
+        width: 740px;
     }
-    .container{
-        width: 330px;
+    .header, .main{
+        width: 768px;
     }
     .navigation{
         display: none;
     }
     .header-inner{
         justify-content: space-around;
+        margin-top: 20px;
     }
-    .logo img{
-        display: none;
-    }
-    .logo svg{
-        display: block;
-    }
-    .Grid{
-        margin-left: -55px;
-        font-size: 32px;
-    }
-    .button{
-        width: 128px;
-        border-radius: 13px;
-        font-size: 18px;
-    }
-    .main_tittle{
-        font-size: 64px;
-        line-height: 70px;
-        font-weight: 900;
-    }
-    .cool, .images{
-        font-size: 48px;
-    }
-    .main_tittle_bottom{
-        font-size: 24px;
-        width: 330px;
-        line-height: 30px;
-    }
-    .main{
-        background-image: 
-        url('../images/main_dots.png'),
-        url('../images/wave\ 360px.png'),
-        url('../images/main-bg.png');
-        background-position: right top, top, left 145px bottom 120px;
-    }
-    .main_icon{
-        display: block;
-        text-align: center;
-        margin:35px;
-    }
-    .main_text_right, .main_text_div, .main_text_left{
+    .main_text_div{
         display: none;
     }
     .main_button{
-        width: 131px;
-        height: 37px;
-        font-size: 18px;
-        position: absolute;
-        right: 101px;
-    }
-    .history_tittle{
+        width: 250px;
+        height: 60px;
         font-size: 24px;
-    }
-    .small_car{
-        display: none;
-    }
-    .since1954{
-        color: #6C5CE7;
-    }
-    .history_tittle_bottom_span{
-        display: none;
+        position: absolute;
+        right: 230px;
     }
     .history_items{
-        display: none;
-    }
-    .history_items_small{
-        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        margin: 20px;
     }
-    .item_tittle{
-        margin: 10px 0;
-        font-size: 18px;
-        line-height: 1px;
-        margin: 20px 0;
-    }
-    .item_text{
-        font-size: 13px;
-        line-height: 25px;
-    }
-    .item_button{
-        width: 109px;
-        padding: 6px 11px;
-        border-radius: 8px;
-        margin-top: 10px;
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .afford{
-        display: none;
-    }
-    .pricing{
-        font-size: 32px;
+    .history_item{
+        margin: 20px;
     }
     .price{
         padding: 0;
     }
-    .price_tittle{
-        font-size: 32px;
-        line-height: 10px;
-        text-align: start;
-        font-weight: 700;
-    }
-    .price_tittle::first-letter{
-        text-transform: uppercase;
-    }
-    .price_text{
-        font-size: 24px;
-        text-align: start;
-        line-height: 5px;
-        font-weight: 400;
-    }
     .price_list{
         flex-wrap: wrap;
-    }
-    .price_small{
-        margin: 10px 0;
-        color: #2D3436;
-    }
-    .price_item_tittle{
-        font-size: 32px;
-        color: #6C5CE7;
-    }
-    .price_benefit_img_big{
-        display: none;
-    }
-    .price_benefit_img_small{
-        display: block;
-        width: 24px;
-        height: 24px;
-    }
-    .price_benefit{
-        font-size: 14px;
+        margin-left: 120px;
     }
     .price_item{
-        margin: 5px;
-        padding: 10px;
+        border: 8px double #5D4FC7;
+        border-radius: 40px 40px 40px 40px;
     }
-    .price_button{
-        font-size: 18px;
-        line-height: 18px;
-    }
-    .bottom{
+    .bottom_right{
         display: none;
     }
-    .footer{
-        display: block;
+    .bottom_left{
+        width: 100%;
+        padding: 50px;
+    }
+    .bottom_logos{
+        width: 340px;
     }
 }
-
 @media(max-width:480px){
     .container{
+        width: 440px;
+    }
+    .history_container{
         width: 440px;
     }
     .navigation{
@@ -263,6 +156,7 @@
     }
     .price_list{
         flex-wrap: wrap;
+        margin: 10px;
     }
     .bottom{
         display: none;
@@ -272,55 +166,184 @@
     }
 }
 
-@media(max-width:768px){
+@media(max-width:360px){
+    body{
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 18px;
+        color: #2D3436;
+    }
     .container{
-        width: 740px;
+        width: 330px;
+        padding: 15px;
     }
     .navigation{
         display: none;
     }
     .header-inner{
         justify-content: space-around;
-        margin-top: 20px;
     }
-    .main_text_div{
+    .logo img{
+        display: none;
+    }
+    .logo svg{
+        display: block;
+    }
+    .Grid{
+        margin-left: -55px;
+        font-size: 32px;
+    }
+    .button{
+        width: 128px;
+        border-radius: 13px;
+        font-size: 18px;
+    }
+    .main_tittle{
+        width: 310px;
+        font-size: 64px;
+        line-height: 70px;
+        font-weight: 900;
+    }
+    .cool, .images{
+        font-size: 48px;
+    }
+    .main_tittle_bottom{
+        font-size: 24px;
+        width: 330px;
+        line-height: 30px;
+    }
+    .main{
+        background-image: 
+        url('../images/main_dots.png'),
+        url('../images/wave\ 360px.png'),
+        url('../images/main-bg.png');
+        background-position: right top, top, left 145px bottom 120px;
+    }
+    .main_icon{
+        display: block;
+        text-align: center;
+        margin:35px;
+    }
+    .main_text_right, .main_text_div, .main_text_left{
         display: none;
     }
     .main_button{
-        width: 250px;
-        height: 60px;
-        font-size: 24px;
+        width: 131px;
+        height: 37px;
+        font-size: 18px;
         position: absolute;
-        right: 230px;
+        right: 101px;
+    }
+    .history_tittle{
+        font-size: 24px;
+    }
+    .small_car{
+        display: none;
+    }
+    .since1954{
+        color: #6C5CE7;
+    }
+    .history_tittle_bottom_span{
+        display: none;
     }
     .history_items{
-        flex-wrap: wrap;
-        margin: 20px;
+        display: none;
     }
-    .history_item{
-        margin: 20px;
+    .history_items_small{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .history_item_small{
+        width: 130px;
+    }
+    .item_tittle{
+        margin: 10px 0;
+        font-size: 18px;
+        line-height: 1px;
+        margin: 20px 0;
+    }
+    .item_text{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .item_button{
+        width: 109px;
+        padding: 6px 11px;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .afford{
+        display: none;
+    }
+    .pricing{
+        font-size: 32px;
     }
     .price{
         padding: 0;
     }
+    .price_tittle{
+        font-size: 32px;
+        line-height: 10px;
+        text-align: start;
+        font-weight: 700;
+    }
+    .price_tittle::first-letter{
+        text-transform: uppercase;
+    }
+    .price_text{
+        display: block;
+        font-size: 24px;
+        text-align: start;
+        line-height: 5px;
+        font-weight: 400;
+    }
     .price_list{
         flex-wrap: wrap;
-        margin-left: 120px;
+        margin: 0;
     }
-    .price_item{
-        border: 1px solid #4B4C4B;
-        border-radius: 15px;
-        box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 49px 50px 50px 50px rgba(108,92,231,0);
+    .price_small{
+        margin: 10px 0;
+        color: #2D3436;
     }
-    .bottom_right{
+    .price_item_tittle{
+        font-size: 32px;
+        color: #6C5CE7;
+    }
+    .price_benefit_img_big{
         display: none;
     }
-    .bottom_left{
-        width: 100%;
-        padding: 50px;
+    .price_benefit_img_small{
+        display: block;
+        width: 24px;
+        height: 24px;
     }
-    .bottom_logos{
-        width: 340px;
+    .price_benefit{
+        font-size: 14px;
+    }
+    .price_item{
+        margin: 5px;
+        padding: 10px;
+        box-shadow: none;
+        border: 0;
+    }
+    .price_button{
+        font-size: 18px;
+        line-height: 18px;
+        width: 270px;
+    }
+    .bottom{
+        display: none;
+    }
+    .footer{
+        display: block;
     }
 }
+
+
+
+
 

@@ -79,8 +79,6 @@ a {
     color: #6C5CE7;
     background-color: #FFFFFF;
     border: 1px solid #6C5CE7;
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0); 
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0);
 }
 
 .logo svg{
@@ -209,6 +207,10 @@ a {
     justify-content: space-between;
 }
 
+.history_container{
+    margin: 0 auto;
+    width: 1170px;
+}
 .history_item{
     display: flex;
     flex-direction: column;
@@ -245,8 +247,6 @@ a {
 .item_button:hover{
     background-color: #6C5CE7;
     color: #FFFFFF;
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0); 
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0);
 }
 
 .price{
@@ -341,8 +341,6 @@ a {
     color: #FFFFFF;
     font-size: 26px;
     letter-spacing: 1s;
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0); 
-    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 0px 22px 13px -4px rgba(253,203,110,0);
 }
 
 .bottom{
@@ -479,14 +477,6 @@ textarea{
     background-position: left bottom;
 }
 
-@media(max-width:1200px){
-    .container{
-        width: 1120px;
-        padding: 30px 40px;
-    }
-    .bottom{
-        width: 1280px;
-    }
-}
+
 
 
