@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+#main{
+    background-color: #eee;
+    margin: 30px 8px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#tittle{
+    font-size: 38px;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: -1px;
+}
+.tittle_bottom{
+    margin-bottom: 20px;
+}
+#img-div{
+    background-color: #ffff;
+    margin: 15px;
+}
+.main-img{
+    max-width: 100%;
+}
+#img-caption{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+.tribute_tittle{
+    margin: 50px 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+.tribute_info_list{
+    width: 550px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.info_item{
+    margin: 16px 0;
+    line-height: 25px;
+}
+.info_item_year{
+    font-weight: bold;
+}
+.tribute_bottom{
+    width: 545px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 50px 0;
+}
+.footer{
+    font-size: 1.5rem;
+    padding: 30px;
+    font-weight: bold;
+}
+@media(max-width:768px){
+    .tribute_info_list, .tribute_bottom{
+        width: 100%;
+    }
+}
