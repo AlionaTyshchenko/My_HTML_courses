@@ -1,5 +1,0 @@
-@import "./mixin.scss"
-
-.header__right__navigation, .header__left{
-    @include flex-space-around();
-}
