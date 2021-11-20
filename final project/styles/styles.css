@@ -131,7 +131,8 @@ img[alt="Man"] {
     margin: 620px 0px 0px 160px;
 }
 .main_2__content{
-    float: left;
+    position: absolute;
+    right: 29%;
 }
 
 
