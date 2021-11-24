@@ -298,7 +298,8 @@ a {
     background: #FFFFFF;
     border-radius: 16px;
     cursor: pointer;
-    box-shadow: 0px 5px 7px rgba(83, 83, 83, 0.267)
+    box-shadow: 0px 5px 7px rgba(83, 83, 83, 0.267);
+    cursor: pointer;
 }
 
 .price_item_tittle{
@@ -341,6 +342,7 @@ a {
     color: #FFFFFF;
     font-size: 26px;
     letter-spacing: 1s;
+    cursor: pointer;
 }
 
 .bottom{
@@ -383,9 +385,15 @@ a {
     padding-bottom: 40px;
 }
 
+.person_info{
+    display: flex;
+    justify-content: space-between;
+}
+
 .bottom_logo_img:hover{
     background-color: #FFEAA7;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .bottom_info_item{
@@ -393,6 +401,7 @@ a {
 }
 .bottom_info_link:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 textarea{
@@ -411,7 +420,7 @@ textarea{
 
 .person_info input{
     background-color: #DCDCDC;
-    width: 270px;
+    width: 250px;
     border-radius: 15px;
     border: 0;
     padding: 8px;
