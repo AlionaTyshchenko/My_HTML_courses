@@ -101,11 +101,21 @@ button{
 .history__content {
     display: flex;
     justify-content: space-around;
+    height: 1039px;
 }
 .history__images {
     position: relative;
 }
-.history__images__item {
+.history__images__item--top {
+    position: relative;
+}
+
+.history__images__item--middle {
+    position: relative;
+}
+
+.history__images__item--bottom {
+    position: relative;
 }
 .history__images__top--main {
     border: 1px solid black;
