@@ -33,7 +33,8 @@ a{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    right: 36%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .header__buttons--left{
@@ -51,7 +52,8 @@ a{
     grid-template-columns: repeat(4, 305px);
     grid-template-rows: repeat(3,205px);
     grid-gap: 10px;
-    margin:17px 7% 0 7%;
+    margin: 17px auto 0 auto;
+    width: 1250px;
 }
 .main__item__1{
     background-image: url(../images/box1.png);
