@@ -1,0 +1,87 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	border-bottom: 1px solid black;
+	font-size: 15px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	align-items: center;
+}
+
+.main__nav{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.main{
+	display: flex;
+	justify-content: space-between;
+	margin: 88px auto;
+}
+
+.block--left{
+	display: flex;
+	align-items: left;
+	padding: 80px;
+	background-color: rgba(231, 248, 255, 1);
+	border-radius: 50px;
+	flex-direction: column;
+	width: 60%;
+	margin-right: 29px;
+}
+
+.block--right{
+	background-color: rgba(255, 238, 204, 1);
+	border-radius: 50px;
+	width: 35%;
+	padding: 64px;
+}
+
+.hand{
+	width: 100%;
+}
+
+.tittle{
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-top: 40px;
+	margin-bottom: 45px;
+}
+
+.main__button{
+	padding: 22px 58px;
+	background-color: black;
+	border-radius: 5px;
+	color: #fff;
+	border: 0;
+	max-width: 226px;
+}
+
+.main__foter__tittle{
+	font-size: 25px;
+	font-weight: 700;
+}
+
+
+
