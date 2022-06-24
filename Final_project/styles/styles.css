@@ -50,7 +50,6 @@ button:hover {
   cursor: pointer;
   background-color: #fff;
   color: #3751FF;
-  font-size: 18px;
   border: 1px solid #3751FF;
 }
 
@@ -67,24 +66,26 @@ button:hover {
   margin-top: 20px;
 }
 
-.header .header__navigation::before {
-  content: '';
-  background-image: url("../imgs/Vector__header.png");
-  width: 9px;
-  height: 6px;
-  position: absolute;
-  right: 52%;
-  top: 2%;
-}
-
 .header .header__navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header .header__navigation li {
+.header .header__navigation .header__item {
   margin-left: 45px;
+}
+
+.header .header__navigation .header__item:hover::before {
+  content: '';
+  background-image: url("../imgs/Vector__header.png");
+  position: absolute;
+  left: 65%;
+  top: -20px;
+  width: 10px;
+  height: 6px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .header__connecting .header__connecting__tel {

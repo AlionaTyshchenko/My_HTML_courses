@@ -50,7 +50,6 @@ button{
       cursor:pointer;
       background-color: #fff;
       color: #3751FF;
-      font-size: 14px;
       border: 1px solid #3751FF;
     }
 }
@@ -63,20 +62,23 @@ button{
     .header__navigation{
         margin-top: 20px;
 
-       &::before{
-           content: '';
-           background-image: url('../imgs/Vector__header.png');
-           width: 9px;
-           height: 6px;
-           position: absolute;
-           right: 52%;
-           top: 2%;
-       }
             ul{
                 display: flex;
             }
-                li{
+                .header__item{
                     margin-left: 45px;
+                    &:hover::before{
+                        content: '';
+                        background-image: url('../imgs/Vector__header.png');
+                position: absolute;
+                left: 65%;
+                top: -20px;
+                width: 10px;
+                height: 6px;
+
+                background-repeat: no-repeat;
+                background-position: center center;
+                    }
                 }
     }
 }
